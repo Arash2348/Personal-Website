@@ -897,52 +897,16 @@ video {
   margin-left: 18rem;
 }
 
+.mt-\[\.7rem\]{
+  margin-top: .7rem;
+}
+
 .ml-\[22rem\]{
   margin-left: 22rem;
 }
 
 .mt-\[5rem\]{
   margin-top: 5rem;
-}
-
-.ml-\[80rem\]{
-  margin-left: 80rem;
-}
-
-.mt-\[10rem\]{
-  margin-top: 10rem;
-}
-
-.mt-\[\.5rem\]{
-  margin-top: .5rem;
-}
-
-.mt-\[\.7rem\]{
-  margin-top: .7rem;
-}
-
-.mt-\[\.rem\]{
-  margin-top: .rem;
-}
-
-.mt-\[7\.3rem\]{
-  margin-top: 7.3rem;
-}
-
-.mt-\[6rem\]{
-  margin-top: 6rem;
-}
-
-.mt-\[7rem\]{
-  margin-top: 7rem;
-}
-
-.mt-\[20rem\]{
-  margin-top: 20rem;
-}
-
-.mt-\[rem\]{
-  margin-top: rem;
 }
 
 .flex{
@@ -1099,12 +1063,6 @@ video {
 
 .rotate-90{
   --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-90{
-  --tw-scale-x: .9;
-  --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1288,11 +1246,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#138FF7\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(19 143 247 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#1877F2\]{
