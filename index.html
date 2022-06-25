@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/svg" href="images/Maharaj's FavIcon Logo (1).svg">
+    <title>Maharaj's Website</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-4">
+        <!-- Flex Container -->
+        <div class="flex items-center justify-between">
+            <!-- logo -->
+            <div class="pt-2">
+                <img src="images/WaheguruJiLogo.svg" alt="Maharaj's Logo">
+            </div>
+
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-20 font-myCabin text-blackGray text-lg">
+                <a class="hover:text-myIndigo" href="#Experience">Experience</a>
+                <a class="hover:text-myIndigo" href="#Projects">Projects</a>
+                <a class="hover:text-myIndigo" href="#Education">Education</a>
+                <a class="hover:text-myIndigo" href="#Skills">Skills</a>
+            </div>
+
+            <div>
+                <a href="#"><button class="bg-myIndigo text-white w-40 h-10 rounded-xl mr-10 font-myCabin font-semibold text-lg hover:opacity-90">Resume</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <section  id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-start px-6 mx-auto space-y-0 md:space-y-0">
+            <!--Line, Heading, Paragraph, Two Buttons-->
+            <div class="flex-col space-y-[29px] ml-[120px] mt-[90px] mr-[30px]">
+                <div class="w-[138px] mb-[40px] h-[10px] bg-myIndigo"></div>
+                <h1 class="font-plusJakarta font-bold text-4xl text-myIndigo"><span class="text-strongGray">Hi, I'm</span> Arashdeep Singh.</h1>
+                <div class="w-[640px] h-[69px]" id="paragraph-container">
+                    <p class="font-myCabin font-semibold text-blackGray text-lg">Arash is a student at the Massachussetts Institute of Technology (MIT) currently pursuing a degree in Computer Science and Engineering (6-3). He enjoys bettering humanity through tech and becoming a better person!</p>
+                </div>
+
+                <!-- Buttons -->
+                <div class="relative flex space-x-19 py-4">
+                    <a href="mailto:asingh02@mit.edu"><button class="bg-myIndigo text-white w-40 z-[3] h-10 rounded-xl mr-10 font-myCabin font-semibold text-base hover:opacity-90">Get in Touch</button></a>
+                    <a href="#Experience"><button class="bg-white text-myIndigo shadow-2xl border border-strokeGray w-40 h-10 rounded-xl mr-10 font-myCabin font-semibold text-base hover:bg-myIndigo hover:opacity-50 hover:text-white">See my Work</button></a>
+                    <div class="absolute top-[-50px] left-[45px] w-[68px] h-[185px] rotate-90 rounded-full bg-myIndigo z-[-1] blur-[20px] "></div>
+
+                </div>
+            </div>
+
+            <!--Maharaj Image, Circle, Circle Blur -->
+            <div class="relative">
+                <!-- <img class ="mt-[-40px]"src="images/MaharajTogether.svg" alt=""> -->
+
+                <img class = "z-[1] ml-16 w-[450px] h-[450px]" src="images/WaheguruJiPicture.svg" alt="images supposed to be here">
+                <div class="absolute top-0 left-[32px] w-[520px] h-[460px] rounded-full bg-myIndigo z-[-3]"></div>
+                <div class="absolute top-8 left-[40px] w-[520px] h-[460px] rounded-full bg-myIndigo z-[-2] blur-[20px] "></div>
+                <!-- <img class="absolute top-0 left-[40px] w-[520px] h-[520px] rounded-full z-[1]" src="images/WaheguruJiPicture.svg" alt="Image of Arash"></img> -->
+
+                <!-- <img src="images/WaheguruJiPicture.svg" alt="Image of Arash" class="z-[2]">
+                <img src="images/IndigoCircleBlur.svg" alt="" class="z-[1]">
+                <img src="images/IndigoCircle.svg" alt="" class="z-[0]"> -->
+            </div>
+        </div>
+
+        <!-- Blob -->
+        <div class="relative left-[-40px] mt-[-60px] container mx-auto  ">
+            <img src="images/IndigoBlob.svg" alt="this is the blob">
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="#Featured_Section">
+        <!-- Container for Featured Section -->
+        <div class="flex container flex-col space-y-2 items-start mx-auto relative mt-[15px]">
+            <!-- Featured By and Lines -->
+            <div class="flex space-x-3 items-center object-center mx-auto">
+                <div class="border-t border-black w-[664px] opacity-10"></div>
+                <h1 class="font-plusJakarta font-bold text-[13px]">FEATURED BY</h1>
+                <div class="border-t border-black w-[664px] opacity-10"></div>
+            </div>
+
+            <!-- Dots -->
+            <div class="absolute left-[-33px] top-[-10px] space-x-[1182px] flex">
+                <img src="images/LeftDots.svg" alt="the left dots">
+                <img src="images/RightDots.svg" alt="the right dots">
+            </div>
+
+            <!-- Images -->
+            <div class="flex mx-auto space-x-[6rem]">
+                <img class="" src="images/MaharajsBoston.svg" alt="Maharaj's BG images">
+                <img src="images/MITNewsWaheguruJi.svg" alt="">
+                <img src="images/FresnoANew.svg" alt="">
+                <img src="images/WaheguruJiScienceMag.svg" alt="">
+            </div>
+
+            <!-- Bottom Line -->
+            <div class="border-t opacity-10 border-black w-full"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Experience Section -->
+    <section class="" id="Experience">
+        <!-- Container for everything with Experience Section-->
+        <div class="flex container flex-col mx-auto mt-[30px]">
+            
+            <!-- Experience Items and Shape --> 
+            <div class="flex items-center ml-10">
+                <!-- Experience Items -->
+                <div class="flex-col mr-auto">
+                    <div class="w-[138px] mb-[20px] h-[10px] bg-myIndigo"></div>
+                    <h1 class="font-plusJakarta font-bold text-[38px] text-strongGray">Experience</h1>
+                    <div class="w-[640px] h-[69px] mt-[25px]" id="2nd-paragraph-container">
+                        <p class="font-myCabin font-semibold text-blackGray text-lg">With a background in AI/ML Research, Software Engineering, and Business/Entrepreneurship, I focus on honing skills and applying them to industry.</p>
+                    </div>
+                </div>
+
+                <!-- Shape Image-->
+                <img class= "mr-[-55px]" src="images/TriangleExpPoly.svg" alt="Triangle in the experience section">
+
+            </div>
+        
+            <!-- The Actual Experiences: e.g CSAIL -->
+            <div class=" flex-col space-y-[30px] ml-10">
+
+                <!-- CSAIL -->
+                <div class="relative flex items-start h-[248px]">
+                    
+                    <!-- Image of Experience -->
+                    <img class="ml-[25px] mt-5"src="images/MaharajsCSAIL.svg" alt="CSAIL image">
+                    
+                    <!-- Text for Experience -->
+                    <div class="flex-col font-plusJakarta text-[16px] ml-[30px] mt-7">
+                        <h1 class="text-myIndigo font-bold">Machine Learning Intern @ MIT Computer Science and Artificial Intelligence Labaratory</h1>
+                        <h2>June 2019 - May 2020</h2>
+                        <ul class="space-y-3 mt-3 ml-8 list-disc w-[988px]">
+                            <li>Analyzing applications across the Home Mortgage Disclosure Act (HMDA) to build a novel fair-loan classifer to handle loan decisions without bias</li>
+                            <li>Constructed a fairness pipeline, which undegoes situation testing, class and label balancing, and data-subdivisions to decrease bias by 35%</li>
+                            <li>Published <a href="#" class="text-[#018AD2] italic underline">first-author paper</a> in Journal of Machine Learning Knowledge Extraction and featured on <a href="#" class="text-[#018AD2] italic underline">The Boston Globe</a> and <a href="#" class="text-[#018AD2] italic underline">MIT News</a></li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Transparent Circular Surrounding -->
+                    <div class="absolute top-0 left-0 bg-myIndigo opacity-5 rounded-[50px] w-full h-[248px] z[-1] "></div>
+                </div>
+
+                <!-- HMS -->
+                <div class="relative flex items-start h-[248px] ">
+                    
+                    <!-- Image of Experience -->
+                    <img class="ml-[25px] mt-12"src="images/MaharajsHMS.svg" alt="HMS image">
+                    
+                    <!-- Text for Experience -->
+                    <div class="flex-col font-plusJakarta text-[17px] ml-[30px] mt-9">
+                        <h1 class="text-myIndigo font-bold">Machine Learning Intern @ Harvard Medical School & Brigham Women’s Hospital</h1>
+                        <h2>June 2019 - May 2020</h2>
+                        <ul class="space-y-3 mt-3 ml-8 list-disc w-[988px]">
+                            <li>Validating microbial model performance by generating synthetic data, measuring error metrics, and iterating enhancements</li>
+                            <li>Increasing model accuracy through implementation of Python and Bash as well as simulating synthetic noise</li>
+                            <li>Publishing paper currently in-review at the Journal of Cell Host & Microbe and exhibited work to Columbia and MIT graduate students</li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Transparent Circular Surrounding -->
+                    <div class="absolute top-0 left-0 bg-myIndigo opacity-5 rounded-[50px] w-full h-[248px] z[-1] "></div>
+                </div>
+
+                <!-- Wobot -->
+                <div class="relative flex items-start h-[248px]">
+                    
+                    <!-- Image of Experience -->
+                    <img class="ml-[25px] mt-12" src="images/MaharajsWobot.svg" alt="Wobot image">
+                    
+                    <!-- Text for Experience -->
+                    <div class="flex-col font-plusJakarta text-[17px] ml-[30px] mt-9">
+                        <h1 class="text-myIndigo font-bold">Data Science Intern @ Wobot.AI</h1>
+                        <h2>June 2019 - May 2020</h2>
+                        <ul class="space-y-3 mt-3 ml-8 list-disc w-[1030px]">
+                            <li>Developed an object-detection software to detect various pizza toppings and stop flawed pizza orders</li>
+                            <li>Implemented image segmentation and a webscrapper to develop a 93% accurate AI-pizza model trained over 2,000 images</li>
+                            <li>Filing <a href="https://google.com" class="text-[#018AD2] italic underline">provisional patent</a> for innovation and work showcased at FSTEC global restaurant-tech conference</li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Transparent Circular Surrounding -->
+                    <div class="absolute top-0 left-0 bg-myIndigo opacity-5 rounded-[50px] w-full h-[248px] z[-1] "></div>
+                </div>
+                
+                <!-- CSU, Fresno -->
+                <div class="relative flex items-start h-[248px]">
+                    
+                    <!-- Image of Experience -->
+                    <img class="ml-[50px] mt-5" src="images/MaharajsFS.svg" alt="CSU,Fresno image">
+                    
+                    <!-- Text for Experience -->
+                    <div class="flex-col font-plusJakarta text-[17px] ml-[55px] mt-9">
+                        <h1 class="text-myIndigo font-bold">Machine Learning Intern @ California State University, Fresno</h1>
+                        <h2>June 2019 - May 2020</h2>
+                        <ul class="space-y-3 mt-3 ml-8 list-disc w-[1030px]">
+                            <li>Built mathematical models that leveraged MATLAB and Wolfram to simulate predator-prey environments</li>
+                            <li>Transformed over 1000 images of flow data into vectorized features to validate species thesis</li>
+                            <li>Co-authored an in-review <a href="#" class="text-[#018AD2] italic underline">paper</a> at the International Journal of Fluids and work showcased at the SICB research conference</li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Transparent Circular Surrounding -->
+                    <div class="absolute top-0 left-0 bg-myIndigo opacity-5 rounded-[50px] w-full h-[248px] z[-1] "></div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="Projects">
+        <!-- Container for the Projects Section -->
+        <div class="flex relative container flex-col mx-auto mt-[32px]">
+            <!-- Line, My Projects, Project Text -->
+            <div class="flex items-center ml-10">
+                <!-- Line -->
+                <div class="bg-myIndigo w-3 h-[69.01px]"></div>
+                <h1 class="font-plusJakarta font-bold text-[38px] text-strongGray ml-6">My Projects</h1>
+                <div class="w-[640px] h-[69px] mt-[25px] ml-12" id="3rd-paragraph-container">
+                    <p class="font-myCabin font-semibold text-blackGray text-lg">“Projects bear fruitful growth in knowledge and person, in ways which learning may never will” — at least, those are my thoughts anyways. ~ Arashdeep Singh</p>
+                </div>
+            </div>
+
+            <!-- <img class="absolute left-0" src="images/P1.svg" alt=""> -->
+          
+            <!-- SkyFall and Inspector -->
+            <div class="flex ml-10 mt-[1.5rem] space-x-[2rem] ">
+
+                <!-- SkyFall -->
+                <div class="flex flex-col relative ">
+                    <!-- Image -->
+                    <img class="z-[-2] " src="images/RealSky.svg" alt="Skyfall image">
+
+                    <!-- All White Box Text -->
+                    <div class="flex flex-col mt-[-300px] ml-9">
+                        <!-- Just the Text -->
+                        <div class="ml-[2rem] mt-5"> 
+                            <h1 class="font-plusJakarta font-semibold text-[40px] text-[#313131]">SkyFall (Beta)</h1>
+                            <p class="font-myCabin text-2xl text-blackGray font-semibold mt-5 w-[132px] h-[83px]">IOS App Based Game in 2D</p>
+                            <!-- View and View Button -->
+                            <div class="flex mt-7 ml-[14rem] space-x-5 hover:-translate-y-1 hover:translate-x-3">
+                                <h2 class="text-myIndigo font-myCabin font-semibold text-[26px]">View</h2>
+                                <button class="rounded-full border border-gray-100 shadow shadow-[180px] w-[39px] h-[39px] text-myIndigo"> <img class="ml-3.5" src="images/Vector 3.svg" alt=""> </button>
+                            </div>
+                        </div>
+
+                        <!-- Rounded White Box -->
+                        <div class="absolute z-[-1] bg-white w-[411px] h-[277px] rounded-[50px]"></div>
+                    </div>
+                </div>
+
+                <!-- The Inspector -->
+                <div class="flex flex-col relative">
+                    <!-- Image -->
+                    <img class="z-[-2]" src="images/RealInspector.svg" alt="Inspector image">
+
+                    <!-- All White Box Text -->
+                    <div class="flex flex-col mt-[-300px] ml-9">
+                        <!-- Just the Text -->
+                        <div class="ml-[2rem] mt-5"> 
+                            <h1 class="font-plusJakarta font-semibold text-[40px] text-[#313131]">The Inspector</h1>
+                            <p class="font-myCabin text-2xl text-blackGray font-semibold mt-5 w-[10rem] h-[83px]">Team 1671 FIRST Robotics FRC Robot</p>
+                            <!-- View and View Button -->
+                            <div class="flex mt-7 ml-[14rem] space-x-5">
+                                <h2 class="text-myIndigo font-myCabin font-semibold text-[26px]">View</h2>
+                                <button class="rounded-full border border-gray-100 shadow shadow-[180px] w-[39px] h-[39px] text-myIndigo"> <img class="ml-3.5" src="images/Vector 3.svg" alt=""> </button>
+                            </div>
+                        </div>
+
+                        <!-- Rounded White Box -->
+                        <div class="absolute z-[-1] bg-white w-[411px] h-[277px] rounded-[50px]"></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- Scouting App -->
+            <div class="flex flex-col relative mt-[4.5rem] ml-10">
+                <!-- Image -->
+                <img class="z-[-2] w-[85.5rem] " src="images/ScoutingApp.svg" alt="Scouting image">
+
+                <!-- All White Box Text -->
+                <div class="flex flex-col mt-[-300px] ml-9">
+                    <!-- Just the Text -->
+                    <div class="ml-[2rem] mt-5"> 
+                        <h1 class="font-plusJakarta font-semibold text-[40px] text-[#313131]">Scouting App</h1>
+                        <p class="font-myCabin text-2xl text-blackGray font-semibold mt-5 w-[12rem] h-[83px]">Robotics-Based Android Scouting App</p>
+                        <!-- View and View Button -->
+                        <div class="flex mt-7 ml-[14rem] space-x-5">
+                            <h2 class="text-myIndigo font-myCabin font-semibold text-[26px]">View</h2>
+                            <button class="rounded-full border border-gray-100 shadow shadow-[180px] w-[39px] h-[39px] text-myIndigo"> <img class="ml-3.5" src="images/Vector 3.svg" alt=""> </button>
+                        </div>
+                    </div>
+
+                    <!-- Rounded White Box -->
+                    <div class="absolute z-[-1] bg-white w-[411px] h-[277px] rounded-[50px]"></div>
+                </div>
+            </div>
+
+            <!-- StudySet and The Ecolibrium Project -->
+            <div class="flex ml-10 mt-[4.5rem] space-x-[2rem] ">
+
+                <!-- StudySet -->
+                <div class="flex flex-col relative ">
+                    <!-- Image -->
+                    <img class="z-[-2] " src="images/StudySet.svg" alt="StudySet image">
+
+                    <!-- All White Box Text -->
+                    <div class="flex flex-col mt-[-300px] ml-9">
+                        <!-- Just the Text -->
+                        <div class="ml-[2rem] mt-[10.9rem]"> 
+                            <h1 class="font-plusJakarta font-semibold mt-1 text-[35px] text-[#313131]">StudySet</h1>
+                            <p class="font-myCabin text-[20px] text-blackGray font-semibold mt-[.3rem] h-[83px]">CS-Powered, SAT/ACT Prep Tech-Startup</p>
+                            <!-- View and View Button -->
+                            <div class="absolute mt-[-7rem] flex ml-[25.8rem] space-x-5">
+                                <h2 class="text-myIndigo font-myCabin font-semibold text-[26px]">View</h2>
+                                <button class="rounded-full border border-gray-100 shadow shadow-[180px] w-[39px] h-[39px] text-myIndigo"> <img class="ml-3.5" src="images/Vector 3.svg" alt=""> </button>
+                            </div>
+                        </div>
+
+                        <!-- Rounded White Box -->
+                        <div class="absolute mt-[11rem] z-[-1] bg-white w-[38rem] h-[6rem] rounded-full"></div>
+                    </div>
+                </div>
+
+                <!-- The Ecolibrium Project -->
+                <div class="flex flex-col relative">
+                    <!-- Image -->
+                    <img class="z-[-2]" src="images/TheEcolibriumProject.svg" alt="The Ecolibrium Project Image">
+
+                    <!-- All White Box Text -->
+                    <div class="flex flex-col mt-[-300px] ml-9">
+                        <!-- Just the Text -->
+                        <div class="ml-[2rem] mt-[10.9rem]"> 
+                            <h1 class="font-plusJakarta font-semibold mt-1 text-[35px] text-[#313131]">The Ecolibrium Project</h1>
+                            <p class="font-myCabin text-[20px] text-blackGray font-semibold mt-[.3rem] h-[83px]">CS-Powered, Environmental Non-Profit</p>
+                            <!-- View and View Button -->
+                            <div class="absolute mt-[-7rem] flex ml-[25.8rem] space-x-5">
+                                <h2 class="text-myIndigo font-myCabin font-semibold text-[26px]">View</h2>
+                                <button class="rounded-full border border-gray-100 shadow shadow-[180px] w-[39px] h-[39px] text-myIndigo"> <img class="ml-3.5" src="images/Vector 3.svg" alt=""> </button>
+                            </div>
+                        </div>
+
+                        <!-- Rounded White Box -->
+                        <div class="absolute mt-[11rem] z-[-1] bg-white w-[38rem] h-[6rem] rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="" id="Education">
+        <!-- Container for everything with Education Section-->
+        <div class="flex container flex-col mx-auto mt-[30px]">
+            
+            <!-- Education Items --> 
+            <div class="flex items-center ml-10">
+                <!-- Education Items -->
+                <div class="flex-col mr-auto">
+                    <div class="w-[138px] mb-[20px] h-[10px] bg-myIndigo"></div>
+                    <h1 class="font-plusJakarta font-bold text-[38px] text-strongGray">Education</h1>
+                    <div class="w-[34rem] h-[69px] mt-[15px]" id="4th-paragraph-container">
+                        <p class="font-myCabin font-semibold text-blackGray text-lg">“The powerful foundation of man <span class="italic">is</span> education” ~ Arashdeep Singh. Here is where I previously have studied and currently study.</p>
+                    </div>
+                </div>
+
+            </div>
+        
+            <!-- The Actual Education -->
+            <div class="flex flex-col relative mt-[1rem]">
+
+                <!-- MIT -->
+                <div class="z-[1] flex items-start ml-10 mt-[2rem]">
+                    <img src="images/MaharajsMIT.svg" alt="Image of Maharaj's MIT">
+
+                    <!-- All Text Related to the Respective Education -->
+                    <div class="flex flex-col ml-[5rem]">
+                        <h1 class="font-plusJakarta text-[26px] font-semibold text-myIndigo">Massachusetts Institute of Technology (MIT)</h1>
+                        <div class="font-plusJakarta text-blackGray text-[22px] font-semibold">
+                            <h2>Exp Graduation: May 2026</h2>
+                            <h2>B.S.  Computer Science +  Engineering</h2>
+                        </div>
+
+                        <!-- Activities/Clubs and Corresponding Buttons -->
+                        <div class="flex flex-col mt-4">
+                            <h2 class="font-myCabin text-blackGray font-semibold text-2xl">Activities/Clubs:</h2>
+
+                            <div class="flex space-x-5 mt-3">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">MIT Computer Science and Artificial Intelligence Lab</button>
+                                <button class="border-[0.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">MIT FinTech<span class="font-plusJakarta">@</span>CSAIL</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Coursework and Corresponding Buttons -->
+                        <div class="flex flex-col">
+                            <h2 class="font-myCabin text-blackGray font-semibold text-2xl mt-[2rem]">Current Coursework:</h2>
+
+                            <div class="flex space-x-2 mt-3">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Programming in Python (6.001)</button>
+                                <button class="border-[0.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Mathematics for Computer Science (6.042)</button>
+                            </div>
+                            
+
+                            <div class="flex mt-[1rem] space-x-3">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin  text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Fundemental of Programming (6.009)</button>
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin  text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Multivariable Calculus (18.02)</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="z-[1] flex items-start ml-10 mt-[3rem]">
+                    <img src="images/MaharajsBuchanan.svg" alt="Image of Maharaj's Buchanan">
+
+                    <!-- All Text Related to the Respective Education -->
+                    <div class="flex flex-col ml-[5rem]">
+                        <h1 class="font-plusJakarta text-[26px] font-semibold text-myIndigo">Floyd B. Buchanan High School</h1>
+                        <div class="font-plusJakarta text-blackGray text-[22px] font-semibold">
+                            <h2>SAT: 1550, GPA: 4.00, W-GPA: 4.81, Rank: 2/667</h2>
+                        </div>
+
+                        <!-- Activities/Clubs and Corresponding Buttons -->
+                        <div class="flex flex-col mt-[2rem]">
+                            <h2 class="font-myCabin text-blackGray font-semibold text-2xl">Relevant Coursework:</h2>
+
+                            <div class="flex space-x-5 mt-3">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 px-2 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">AP Computer Science Principles</button>
+                                <button class="border-[0.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 px-2 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">AP Calculus BC</button>
+                            </div>
+                            
+
+                            <div class="flex mt-[1rem] space-x-6">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 px-2 font-myCabin  text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">AP Computer Science A</button>
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 px-2 font-myCabin  text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">AP Statistics</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Coursework and Corresponding Buttons -->
+                        <div class="flex flex-col">
+                            <h2 class="font-myCabin text-blackGray font-semibold text-2xl mt-[3rem]">Awards & Recognition:</h2>
+
+                            <div class="flex space-x-2 mt-3">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Coca-Cola Regional Finalist (&lt 0.38%) </button>
+                                <button class="border-[0.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Ashoka Changemaker Grant ($2500)</button>
+                            </div>
+                            
+
+                            <div class="flex mt-[1rem] space-x-3">
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin  text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">Yale Young Global Scholar (&lt 33%)</button>
+                                <button class="border-[.11rem] border-[#0060F0] bg-white rounded-[10px] p-1 font-myCabin  text-[18px] hover:bg-myIndigo hover:text-white hover:border-white">National Merit Finalist (&lt 5%)</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class=" ml-4 absolute top-0 left-0 bg-myIndigo opacity-[.12] rounded-[38px] w-full h-[58rem] z[-1]"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="" id="Skills">
+        <!-- Container for everything with Skills Section-->
+        <div class="flex container flex-col mx-auto mt-[4.3rem]">
+            
+            <!-- Skills Items --> 
+            <div class="flex items-center relative ml-10 ">
+                <!-- Skills Items -->
+                <div class="flex-col mr-auto">
+                    <div class="w-[138px] mb-[20px] h-[10px] bg-gradient-to-r from-myIndigo to-[#00a2ff2b]"></div>
+                    <h1 class="font-plusJakarta font-bold text-[38px] text-strongGray">Skills</h1>
+                    <div class="w-[40rem] h-[69px] mt-[15px]" id="4th-paragraph-container">
+                        <p class="font-myCabin font-semibold text-blackGray text-lg">“Skills are the enigmatic pillars that crystalize potential” ~ Arashdeep Singh. Thus, I have made it my mission to sharpen my chilling curiosity with the following skills.</p>
+                    </div>
+                </div>
+
+                <img class="absolute left-[53rem]" src="images/SkillsPoly.svg" alt="The Polygon for the Skills Section">
+
+
+            </div>
+            
+            <!-- Contains All Skill Text and Images -->
+            <div class="flex mt-[3.3rem] ml-10">
+                <!-- Programming Languages Part -->
+                <div class="flex flex-col ml-[2rem]">
+                    <h1 class="font-plusJakarta font-bold text-[21px] text-myIndigo">Programming Langugages</h1>
+                    <ul class="list-disc font-plusJakarta font-bold text-[20px] text-blackGray mt-[1rem] ml-8">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                        <li>Swift/Swift UI</li>
+                        <li>C++/C#</li>
+                        <li>Unity</li>
+                    </ul>
+                </div>
+
+                <img class="ml-[3rem]" src="images/ProgrammingComputer.svg" alt="Programming Computer">
+
+                <div class="flex flex-col ml-[6rem]">
+                    <h1 class="font-plusJakarta font-bold text-[21px] text-myIndigo">Design</h1>
+                    <ul class="list-disc font-plusJakarta font-bold text-[20px] text-blackGray mt-[1rem] ml-8">
+                        <li>Figma</li>
+                        <li>Canva</li>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe InCopy</li>
+                    </ul>
+                </div>
+
+                <img class="ml-[3rem]" src="images/GraphicComputer.svg" alt="Graphic Computer">
+
+
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="" id="footer">
+        <!-- Container for everything with Footer Section-->
+        <div class="flex container flex-col mx-auto mt-[5.3rem]">
+            
+            <div class="flex ml-10">
+                <img src="images/MaharajFooterLogo.svg" alt="The Footer Logo">
+                <h1 class="ml-[50rem] mt-[2rem] font-plusJakarta font-bold text-[21px] text-strongGray">Arashdeep Singh is a passionate computer scientist and student at MIT</h1>
+            </div>
+           
+            <div class="border-t border-black w-full opacity-10"></div>
+
+            <!-- All the Text for the Footer and Main Images -->
+            <div class="flex mt-[2rem] items-start ml-10">
+
+                <div class="flex flex-col">
+                    <h1 class="font-myCabin font-bold text-[32px] text-strongGray">Social Media</h1>
+                    <h2 class="font-myCabin font-semibold text-[22px] text-blackGray">Keep in touch</h2>
+
+                    <!-- Social Media Images -->
+                    <div class="flex space-x-4 mt-3">
+                        <div class="relative">
+                            <a href="https://www.facebook.com/arashdeep.singh.906"><img class="" src="images/FacebookLogo.svg" alt="Facebook Image"></a>
+                            <div class="absolute top-[0px] left-0 w-[34px] h-[34px] rotate-90 rounded-full bg-[#1877F2] z-[-1] blur-[20px] "></div>
+                        </div>
+
+                        <div class="relative">
+                            <a href="https://twitter.com/Arash2348"><img class="rounded-full" src="images/Twitter.svg" alt="Twitter Image"></a>
+                            <div class="absolute top-[0px] left-0 w-[34px] h-[34px] rotate-90 rounded-full bg-[#1BA8FF] z-[-1] blur-[20px] "></div>
+
+                        </div>
+
+                        <div class="relative">
+                            <a href="https://www.instagram.com/arashdeep_6/"><img class="rounded-full" src="images/Instagram.svg" alt="Instagram Image"></a>
+                            <div class="absolute top-[0px] left-0 w-[34px] h-[34px] rotate-90 rounded-full bg-[#F93457] z-[-1] blur-[20px] "></div>
+
+                        </div>
+
+                        <div class="relative">
+                            <a href="https://www.linkedin.com/in/arashsingh6/"><img class="rounded-full" src="images/LinkedIn.svg" alt="LinkedIn Image"></a>
+                            <div class="absolute top-[0px] left-0 w-[34px] h-[34px] rotate-90 rounded-full bg-[#018AD2] z-[-1] blur-[20px] "></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col ml-[18rem]">
+                    <h1 class="font-myCabin font-bold text-[26px] text-myIndigo">Pages</h1>
+                    <ul class="list-none font-myCabin font-bold text-[23px] text-blackGray mt-[1rem]">
+                        <a href="#Experience"> <li >Experience</li ></a>
+                        <a class="" href="#Projects"> <li class="mt-[.7rem]">Projects</li> </a>
+                        <a href="#Education"> <li class="mt-[.7rem]">Education</li> </a>
+                        <a href="#Skills"> <li class="mt-[.7rem]">Skills</li> </a>
+                        
+                    </ul>
+                </div>
+
+                <div class="flex flex-col ml-[22rem]">
+                    <h1 class="font-myCabin font-bold text-[26px] text-myIndigo">Links</h1>
+                    <ul class="list-none font-myCabin font-bold text-[23px] text-blackGray mt-[1rem]">
+                        <a href="#"> <li>Resume</li ></a>
+                    </ul>
+                </div>
+
+            </div>
+
+            <h2 class=" flex mt-[5rem] justify-center font-myCabin font-bold text-[26px] text-strongGray">Copyright 2022 © Arashdeep Singh</h2>
+
+
+            
+        </div>
+    </footer>
+
+
+
+    
+</body>
+</html>
