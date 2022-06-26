@@ -903,7 +903,6 @@ video {
 
 .mt-\[\.7rem\]{
   margin-top: .7rem;
-<<<<<<< Updated upstream
 }
 
 .ml-\[22rem\]{
@@ -980,16 +979,10 @@ video {
 
 .ml-\[1\.5rem\]{
   margin-left: 1.5rem;
-=======
 }
 
-.ml-\[22rem\]{
-  margin-left: 22rem;
->>>>>>> Stashed changes
-}
-
-.mt-\[5rem\]{
-  margin-top: 5rem;
+.mt-\[rem\]{
+  margin-top: rem;
 }
 
 .mt-\[4rem\]{
@@ -1293,7 +1286,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-<<<<<<< Updated upstream
 .scale-50{
   --tw-scale-x: .5;
   --tw-scale-y: .5;
@@ -1559,8 +1551,6 @@ video {
           animation: spin 1s linear infinite;
 }
 
-=======
->>>>>>> Stashed changes
 .list-disc{
   list-style-type: disc;
 }
